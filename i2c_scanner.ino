@@ -28,6 +28,7 @@ void loop()
     if (ret == SUCCESS)
     {
       Serial.print("Found I2C device at: ");
+      Serial.print("0x");
       Serial.print(address, HEX);
       Serial.println();
     }
